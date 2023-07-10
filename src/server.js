@@ -22,8 +22,13 @@ createServer({
 
     this.get("/users", () => {
       return [
-        { id: 1, name: "John Doe", email: "john@example.com" },
+        { id: 1, name: "John", email: "john@example.com" },
         { id: 2, name: "Jack", email: "jack@example.com" },
+        { id: 3, name: "Ervin", email: "sincere@april.biz" },
+        { id: 4, name: "Clementine", email: "suciohet@annie.ca" },
+        { id: 5, name: "Kurtis", email: "telly.hoeger@billy.biz" },
+        { id: 6, name: "Glenna", email: "chaim_mcdermott@dana.io" },
+        { id: 7, name: "Dennis", email: "karley_dach@jasper.info" }
       ];
     });
   },
