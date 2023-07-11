@@ -3,7 +3,7 @@ import { createContext, useState } from "react"
 export const AuthContext = createContext()
 
 export const AuthContextProvider = ({ children }) => {
-  const [isAdmin, setIsAdmin] = useState(true)
+  const [isAdmin, setIsAdmin] = useState(false)
   const [isViewer, setIsViewer] = useState(false)
 
   return (
