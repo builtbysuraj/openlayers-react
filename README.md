@@ -2,6 +2,7 @@
 
 ## Technologies used
 * ReactJS
+* Bootstrap
 * MirageJS(for backend)
 * openlayers map
 
